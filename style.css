@@ -1,0 +1,51 @@
+*{
+    transition: 0.1s;
+}
+body{
+    margin: 0;
+    background: #fff;
+    /* Below part should be romeved in actual project*/
+    display: flex;
+    height: 100vh;
+    justify-content: end;
+    flex-direction: column;
+    /* Above part should be romeved in actual project*/
+}
+footer{
+    width: 100vw;
+    height: fit-content;
+    background: #111312;
+}
+footer div.footer-item{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 5%;
+    height: fit-content;
+}
+footer div.footer-item dt{
+    text-transform: uppercase;
+    margin-bottom: 10%;
+}
+footer div.footer-item dd:not(dd.shop-address){
+    text-align: center;
+}
+div.footer-item-one img{
+    width: 50%;
+    aspect-ratio: 1 / 1;
+}
+div.footer-item-one p{
+    text-align: center;
+    margin: 12px 0;
+    width: 70%;
+}
+div.footer-item-one div.socialmedia-icons{
+    width: 60%;
+}
+footer div.footer-credits{
+    background: #000;
+    line-height: 5vh;
+    height: 5vh;
+    width: 100%;
+}
